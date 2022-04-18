@@ -3,6 +3,39 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+
 a {
   color: #00B7FF;
+}
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ background-image: none;
+ 
+}
+.portada{
+  background-image: url(/images/cinema.jpg);
+  background-size:cover;
+  height: 100vh; 
+  text-align:right;
+  color: white;
+  font-size:500%
+}
+
+.btn{ 
+  /* background-color: white; */
+  color: #00B7FF;
+   
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  
+  
+}
+
+.details{
+  padding-left: 10%;
+  
 }

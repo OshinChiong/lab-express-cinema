@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
+    "seed": "nodemon ./seed/movies.seed.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
